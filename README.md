@@ -17,7 +17,7 @@ This section of the guidelines focuses on the procedures and principles for asso
 ### 1.1. Set of Comparative Concepts
 To maintain the same base of comparison across different languages, MoCCA is restricted to the set of Comparative Concepts (CCs) provided by the CBT consortium. For the first version, these include the set of CCs provided by Croft (2022) and the frames in the Berkeley FrameNet 1.7 data release. 
 
-The CCs, including frames, are presented as a set of related concepts. The Croftian CCs can be related via a subtype_of, implies, part_of or associated_with relation. Frame CCs can be related via the inheritance, subframe, perspective on, precedes, using, causative of, inchoative of, metaphor and see also relations. Thus, the set of CCs to be used is not a list, but a network of concepts. Such a network can be accessed at https://c5.frame.net.br. 
+The CCs, including frames, are presented as a set of related concepts. The Croftian CCs can be related via a subtype_of, implies, part_of or associated_with relation. Frame CCs can be related via the inheritance, subframe, perspective on, precedes, using, causative of, inchoative of, metaphor and see also relations. Thus, the set of CCs to be used is not a list, but a network of concepts. Such a network can be accessed at [the CC DB repo](https://github.com/comparative-concepts/cc-database/). 
 
 Previous experience with the Global FrameNet Shared Annotation task reveals that teams will often find the need to add new CCs to the set or change the existing ones. This is not a choice teams will be allowed to make on the fly, since it would compromise the alignment. Nonetheless, mechanisms are proposed for dealing with cases where teams cannot find a perfectly matching CC for the construction or construction element under analysis, as it will be shown in the section on Reporting Issues.
 
@@ -67,7 +67,7 @@ Considering the need to preserve the autonomy of different CBTs on how to organi
 
 The first file, referred to as CC DB File, comprises a set of Comparative Concepts agreed upon and provided by the “consortium”. Since the CCs are the main features used to align constructions from different projects, this file should be treated as somewhat static. Changes are expected, but should not be drastic or as fast as other data, as they can potentially change the alignment of all Constructicons. The main content of the file is the version of the CC database and the CCs themselves. Each CC must have its Type ID and names indicated (construction, information packaging, strategy, semantic content, frame), its alphanumeric unique ID, name and definition. A JSON-like schema for this file looks like this:
 
-- CC database version (available and searchable at C5)
+- CC database version (available and searchable at [this repo](https://github.com/comparative-concepts/cc-database/))
 - List of CCs:
   - CC Type ID
   - CC Type Name
