@@ -117,8 +117,9 @@ To increase compatibility and preserve the ability of projects to work at their 
 
 ## 3. Reporting issues
 	
-This final section presents guidelines for what to do when the previous guidelines fail. In such cases, teams should report an issue. This reporting can be done at the C5 interface (https://c5.frame.net.br)
-3.1. Analytical Issues
+This final section presents guidelines for what to do when the previous guidelines fail. In such cases, teams should report an issue. This reporting can be done at this repo's issues tab (https://github.com/comparative-concepts/mocca-guidelines/issues)
+
+### 3.1. Analytical Issues
 There are two cases for reporting a missing CC: (1) if there is already an approximate CC in the network, or (2) if there is no such CC.
 
 1. Reporting the lack of best-fit CCs for the Constructions or CEs under analysis when there is an approximate CC available:
